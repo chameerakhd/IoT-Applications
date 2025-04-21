@@ -1,5 +1,4 @@
-# IoT-Applications
-# 📡 IoT Devices and Applications – Arduino Projects Repository
+# 📡 IoT Devices and Applications – Arduino Projects
 
 Welcome to my project repository for the **IoT Devices and Applications** module. This repository documents weekly assignments involving hands-on work with **Arduino Uno**, circuits, sensors, and actuators. Each folder includes:
 - ✅ Arduino code
