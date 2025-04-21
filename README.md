@@ -26,7 +26,7 @@ Welcome to my project repository for the **IoT Devices and Applications** module
 ---
 
 ## 📂 Repository Structure
-'''📦 IoT-Arduino-Projects/
+```📦 IoT-Arduino-Projects/
 │
 ├── Lab 01/
 │   ├── Task 1
@@ -40,7 +40,7 @@ Welcome to my project repository for the **IoT Devices and Applications** module
 ├── Lab 02/
 │   └── (To be added...)
 │
-└── README.md  ← You are here!'''
+└── README.md  ← You are here!```
 
 
 ---
