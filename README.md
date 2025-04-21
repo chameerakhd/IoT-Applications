@@ -9,9 +9,9 @@ Welcome to my project repository for the **IoT Devices and Applications** module
 
 ---
 
-## 📅 Weekly Task Breakdown
+## 📅 Task Breakdown
 
-### 🔹 Week 01
+### 🔹 Lab 01
 **Task 1: 8-Key Tone Generator**  
 - Created a tone generator using 8 push buttons.
 - Each button outputs a different frequency (300Hz to 1kHz).
@@ -21,12 +21,12 @@ Welcome to my project repository for the **IoT Devices and Applications** module
 - Integrated a 7-segment display to show the key number pressed.
 - Alternates key numbers every 500ms if multiple keys are pressed.
 
-📁 [`Lab 01/`](./Lab 01/)
 
 ---
 
 ## 📂 Repository Structure
-```📦 IoT-Arduino-Projects/
+```
+📦 IoT-Arduino-Projects/
 │
 ├── Lab 01/
 │   ├── Task 1
