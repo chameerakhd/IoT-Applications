@@ -24,6 +24,24 @@ Welcome to my project repository for the **IoT Devices and Applications** module
 
 ---
 
+### 🔹 Lab 02
+**Task 1: Communication Using Serial (UART) Interface**  
+- Split the system into two Arduino boards:
+  - One board handles keyboard input and key number display.
+  - The other board handles sound output through a speaker.
+- Boards communicate via UART (Serial).
+
+**Task 2: Communication Using I2C Interface**  
+- Changed the communication method from UART to I2C.
+- One board acts as I2C Master, the other as I2C Slave.
+- Maintains the same input-display and output-sound split.
+
+**Task 3: Adding Onboard Diagnostics**  
+- Added a diagnostic LED to each Arduino board.
+- Boards exchange periodic heartbeat messages over I2C.
+- LEDs remain ON if communication is healthy; LEDs turn OFF if communication fails.
+
+
 ## 📂 Repository Structure
 ```
 📦 IoT-Arduino-Projects/
@@ -38,7 +56,21 @@ Welcome to my project repository for the **IoT Devices and Applications** module
 │     ├── circuit_diagram.jpg
 |     ├── README.md
 ├── Lab 02/
-│   └── (To be added...)
+│   ├── Task 1
+│     ├── arduino_input_display.ino
+│     ├── arduino_sound_output.ino
+│     ├── Task_1_using_a_serial_UART_interface.png
+|     ├── README.md
+│   ├── Task 2
+│     ├── master_input_display.ino
+│     ├── slave_tone_generator.ino
+│     ├── Task_2_using_I2C_communication.png
+|     ├── README.md
+│   ├── Task 3
+│     ├── master_diagnostic.ino
+│     ├── slave_diagnostic.ino 
+│     ├── Task_3_adding_onboard_diagnostics.png
+|     ├── README.md
 │
 └── README.md  ← You are here!```
 
